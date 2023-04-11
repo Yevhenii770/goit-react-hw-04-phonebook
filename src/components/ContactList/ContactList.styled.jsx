@@ -1,9 +1,9 @@
 import styled from '@emotion/styled';
 
 export const UlOfContact = styled.ul`
-  list-style-type: circle;
-  padding: 0;
-  margin: 0;
+  // list-style-type: circle;
+  // padding: 0;
+  // margin: 0;
 `;
 
 export const ContactItem = styled.li`

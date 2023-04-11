@@ -16,6 +16,9 @@ export const ModalContent = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 2% 7%;
+  padding: 30px 30px 30px 30px;
   border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 `;

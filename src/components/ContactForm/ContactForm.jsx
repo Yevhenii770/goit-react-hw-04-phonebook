@@ -30,9 +30,7 @@ class ContactForm extends Component {
     return (
       <Form onSubmit={this.handelSubmit}>
         <Label htmlFor={this.nameInputId}>
-          <br />
           Name
-          <br />
           <Input
             type="text"
             name="name"
@@ -46,9 +44,7 @@ class ContactForm extends Component {
         </Label>
 
         <Label htmlFor={this.numberInputId}>
-          <br />
           Number
-          <br />
           <Input
             type="tel"
             name="number"
@@ -60,7 +56,7 @@ class ContactForm extends Component {
             id={this.numberInputId}
           />
         </Label>
-        <br />
+
         <Button type="submit">Add contacts</Button>
       </Form>
     );
