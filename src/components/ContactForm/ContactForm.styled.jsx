@@ -26,6 +26,7 @@ export const Button = styled.button`
   box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 `;
 export const Label = styled.label`
   display: flex;

@@ -7,7 +7,9 @@ export const ModalBackdrop = styled.div`
   right: 0;
   bottom: 0;
   left: 0;
-  transition: all 0.3s;
+  transition-property: all;
+  transition-duration: 2250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 `;
 
 export const ModalContent = styled.div`
