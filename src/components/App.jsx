@@ -75,7 +75,6 @@ export default function App() {
       >
         Contacts
       </Button>
-
       {showModal && (
         <Modal onClick={togleModal}>
           <h2
